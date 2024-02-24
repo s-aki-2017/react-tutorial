@@ -29,6 +29,7 @@ class Board extends React.Component {
             <div>
                 <div className="board-row">
                     {this.renderSquare(2)}
+                    {this.renderSquare(10)}
                 </div>
                 <div className="board-row">
                     {this.renderSquare(5)}
